@@ -1,7 +1,7 @@
 # 📱 Social Media Platform - Backend (Part 1)
 
-**Assignment:** #12 (SOCIAL MEDIA PROJECT PART ONE)
-**Group:** Node_C45_Mon&Thurs_8:30pm_(Online)
+**Assignment:** #12 (SOCIAL MEDIA PROJECT PART ONE) <br>
+**Group:** Node_C45_Mon&Thurs_8:30pm_(Online) <br>
 **Prepared by:** Mohamed Mahmoud Abo Al Magd
 
 ---
