@@ -1,0 +1,29 @@
+{
+  "name": "social-media-project",
+  "version": "1.0.0",
+  "description": "social media project part one",
+  "license": "ISC",
+  "author": "abo al magd",
+  "type": "commonjs",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"node --watch dist/main.js\"",
+    "start:prod": "cross-env NODE_ENV=production concurrently \"tsc --watch\" \"node --watch dist/main.js\""
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.4.1",
+    "bcrypt": "^6.0.0",
+    "zod": "^4.3.6"
+  }
+}
